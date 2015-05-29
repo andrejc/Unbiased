@@ -1,0 +1,4 @@
+services:
+    fetcher_client:
+        class: LocationFetcherBundle\FetcherClient
+        arguments: ["@guzzle.default"]
